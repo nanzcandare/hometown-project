@@ -1,0 +1,125 @@
+/**
+Palette: https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749
+BROWN: #BC4749
+LIGHT: #F2E8CF
+LIGHT GREEN: #A7C957
+MEDIUM GREEN: #6A994E
+DARK GREEN: #386641
+FONT: #081c15
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    width: 720px;
+    }
+
+#hero {
+    background-image: url("images/canlubang-golf.jpg");
+    background-size: cover; 
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 343px;
+}
+
+#hero-text1 {
+    background: #386641;
+    padding: 5px 10px;
+    margin-top: 119px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#hero-text2 {
+    background: #6A994E;
+    padding: 5px 20px;
+    width: 360px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+#activities {
+    background: #F2E8CF;
+    color: #081c15;
+    height: 378px;
+    padding: 5px 0 50px 0;
+}
+
+#activities > h2 {
+    margin-top: 39px;
+}
+
+#activities-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 34px;
+}
+
+.activity {
+    width: 198px;
+}
+
+.activity-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.activity-img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.activity > h4 {
+    margin-top: 22px;
+    height: 38px;
+}
+
+.activity > p {
+    margin-top: 16px;
+}
+
+.guide {
+    background: white;
+    color: #081c15;
+}
+
+.guide-container {
+    width: 400px;
+    height: 294px;
+    background: #A7C957;
+    border-radius: 10px;
+    box-shadow: 0px 10px #386641;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.guide-img {
+    height: 249px;
+    width: 180px;
+    background-image: url("images/nanz.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.guide-details {
+    width: 207px;
+}
+
+.guide-details > p {
+    font-style: italic;
+    width: 189px;
+}
